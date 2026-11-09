@@ -4,6 +4,9 @@ import womenCollectionImg from'../../assets/womens-collection.webp'
 import { Link } from 'react-router-dom'
 
 const GenderCollectionSection = () => {
+
+
+    
   return (
     <section className='py-16 px-4 lg:px-0'>
        <div className="container mx-auto flex flex-col md:flex-row gap-8 lg:px-6">
