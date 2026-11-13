@@ -10,6 +10,8 @@ import Collection from "./Pages/Collection";
 import ProductDetails from "./Components/Products/ProductDetails";
 import Checkout from "./Components/Cart/Checkout";
 import OrderConfirmation from "./Pages/OrderConfirmation";
+import OrderDetails from "./Pages/OrderDetails";
+import MyOrder from "./Pages/MyOrder";
 
 const App = () => {
   return (
@@ -26,6 +28,8 @@ const App = () => {
           <Route path="product/:id" element={<ProductDetails/>} />
           <Route path="checkout" element={<Checkout/>} />
           <Route path="order-confirmation" element={<OrderConfirmation/>} /> 
+          <Route path="order/:id" element={<OrderDetails/>} />
+          <Route path="my-orders" element={<MyOrder/>} />
         </Route>
         <Route>{/* Admin Layout */}</Route>
       </Routes>
